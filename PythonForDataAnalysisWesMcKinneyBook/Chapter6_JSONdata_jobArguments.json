@@ -1,0 +1,32 @@
+{
+    "returnCode": "200",
+    "message": "",
+    "Payload": [{
+            "arg_name": "eventSince",
+            "data_type": "Text",
+            "format": "",
+            "default_value": "96",
+            "container": "text",
+            "lookup": "",
+            "readonly": true
+        },
+        {
+            "arg_name": "start_date",
+            "data_type": "DateTime",
+            "format": "yyyy-mm-dd hh:mm:ss",
+            "default_value": "anyDefault",
+            "container": "dateTime",
+            "lookup": "",
+            "readonly": false
+        },
+        {
+            "arg_name": "end_date",
+            "data_type": "DateTime",
+            "format": "dd-mm-yyyy hh:mm:ss",
+            "default_value": "",
+            "container": "dateTime",
+            "lookup": "",
+            "readonly": false
+        }
+    ]
+}
